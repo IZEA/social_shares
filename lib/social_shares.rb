@@ -4,6 +4,7 @@ require 'social_shares/string_helper'
 require 'social_shares/version'
 require 'social_shares/base'
 require 'social_shares/facebook'
+require 'social_shares/facebook_graph'
 require 'social_shares/google'
 require 'social_shares/twitter'
 require 'social_shares/vkontakte'
@@ -27,6 +28,7 @@ module SocialShares
     SUPPORTED_NETWORKS = [
       :vkontakte,
       :facebook,
+      :facebook_graph,
       :google,
       # :twitter,
       :mail_ru,
